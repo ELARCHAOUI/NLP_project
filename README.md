@@ -1,8 +1,7 @@
-##NLP_project
 
 Projet d'Analyse de Sentiment Avancée pour AeroPulse Corp. (NLP avec LightGBM)
 
-🎯 Contexte du Projet & Objectif Métier
+ Contexte du Projet & Objectif Métier
 
 
 Ce projet a été mené pour AeroPulse Corp., un acteur majeur dans l'aéronautique et les systèmes de défense, qui fait face à un volume colossal de données textuelles non structurées (rapports de maintenance, journaux de bord, retours clients, etc.). L'objectif était de développer un système d'analyse de sentiment avancé pour :
@@ -12,7 +11,7 @@ Ce projet a été mené pour AeroPulse Corp., un acteur majeur dans l'aéronauti
 - Amélioration du Support Client : Classer et prioriser les retours clients, optimiser la gestion des demandes et identifier les tendances d'insatisfaction.
 - Compréhension de la Voix du Client : Extraire des insights précieux sur la perception des produits et services à partir de flux textuels.
 
-🚀 Approche Technique : Apprentissage Automatique Classique pour le NLP
+ Approche Technique : Apprentissage Automatique Classique pour le NLP
 
 
 Nous avons mis en œuvre une solution robuste en Traitement du Langage Naturel (NLP) basée sur des techniques éprouvées de machine learning.
@@ -65,7 +64,7 @@ Pour comprendre les facteurs influençant les prédictions du modèle, nous avon
 - Méthode : Utilisation des SHAP values (KernelExplainer pour une vue globale et Force Plot pour une explication individuelle).
 - Insights Clés : Nous avons pu identifier des mots spécifiques (delayed, cancelled, lost, worst) qui poussent fortement la prédiction vers le négatif, et d'autres (thanks, great) vers le non-négatif. Ces informations sont cruciales pour AeroPulse Corp. pour comprendre la nature des problèmes signalés.
 
-🚀 Déploiement & Impact Opérationnel
+ Déploiement & Impact Opérationnel
 
 
 Le modèle entraîné et le vectoriseur TF-IDF ont été sauvegardés, prêts pour le déploiement.
@@ -78,7 +77,7 @@ Le modèle entraîné et le vectoriseur TF-IDF ont été sauvegardés, prêts po
 	- Optimisation des Ressources : Acheminer les demandes de support vers les bonnes équipes plus rapidement.
 	- Amélioration Produit/Service : Utiliser les retours négatifs ciblés pour l'amélioration continue.
 
-🛠️ Technologies Utilisées
+ Technologies Utilisées
 
 - Langage : Python
 - Librairies : Pandas, NumPy, Matplotlib, Seaborn, SpaCy, scikit-learn, LightGBM, Flask, SHAP.
